@@ -388,4 +388,7 @@ nav ul li a {
         margin-left: 17%;
         
     }
+    .icons a svg{
+       fill: rgb(18, 137, 137);
+     }
 }
