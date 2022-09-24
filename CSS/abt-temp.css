@@ -1,0 +1,35 @@
+.abtcnt {
+    height: 75%;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 2%;
+    background-color: rgb(11, 17, 22);
+    box-shadow: 0px 0px 10px black;
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abtcnt h1 {
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+}
+
+.abtcnt p {
+    color: white;
+    padding: 0% 5%;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    width: 100%;
+}
+
+.abtcnt img {
+    height: 30%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: white;
+}

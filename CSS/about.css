@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+
+.abt-cnt {
+    height: 75%;
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 2%;
+    background-color: rgb(11, 17, 22);
+    box-shadow: 0px 0px 10px black;
+    padding: 0% 0%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.abt-cnt img { 
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.abt-cnt .left {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(11, 17, 22);
+    padding: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.abt-cnt .left h1 {
+    text-align: center;
+    padding-left: 0%;
+    color: white;
+    margin-top: -25px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.abt-cnt .left p {
+    color: white;
+    padding: 0% 2%;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    width: 96%;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+.abt-cnt .right h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.abt-cnt .right {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(11, 22, 31);
+    padding: 2% 2%;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.abt-cnt .right .Ctext p {
+    color: white;
+    margin-top: 1%;
+    font-size: 13px;
+}
+
+.abt-cnt .right .Ctext ul {
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.abt-cnt .right .Ctext ul li {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: large;
+    margin-top: 15px;
+
+}
+
+.abt-cnt .right .Ctext ul li img {
+    height: 40px;
+    width: 40px;
+    margin-right: 3%;
+}
+
+.abt-cnt .right .Ctext {
+    height: 80%;
+}
+
+.abt-cnt .right .Ctext .skills {
+    width: 100%;
+}
+
+.abt-cnt .right .Ctext .skills ul {
+    width: 100%;
+    margin-top: 0%;
+}
+
+.abt-cnt .right .Ctext .skills ul li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.abt-cnt .right .Ctext .skills ul li p {
+    text-align: left;
+    width: 93%;
+    font-size: 17px;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Fredoka One', cursive;
+
+
+}
+
+.abt-cnt .right .Ctext .skills ul li progress {
+    width: 92%;
+    background-color: rgb(0, 255, 149);
+}
+
+
+.icons {
+    margin-left: 15%;
+}
+.icons a svg{
+    fill: rgb(18, 137, 137);
+}
+
+@media screen and (max-width:1025px) {
+    .abt-cnt{
+        width: 85%;
+        min-height: 80%;
+        max-height: fit-content;
+    }
+    .abt-cnt .left{
+        overflow-y: scroll;
+    }
+    .icons{
+        margin-left: -3%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .abt-cnt{
+        width: 95%;
+    }
+   
+}
+
+@media screen and (max-width:537px) {
+    .abt-cnt{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        margin-top: 0%;
+    }
+    .abt-cnt .left{
+        width: 100%;
+        padding-left: 20px;
+        min-height: 100%;
+        max-height: fit-content;
+        
+    }
+    .abt-cnt .right{
+        width: 100%;
+        height: 100%;
+
+    }
+    .icons{
+        margin-top: 30px;
+        height: 25%;
+        margin-left: 15%;
+    }
+}

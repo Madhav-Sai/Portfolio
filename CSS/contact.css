@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+.contact-cnt {
+    height: 75%;
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 2%;
+    background-color: rgb(11, 17, 22);
+    box-shadow: 0px 0px 10px black;
+    padding: 0% 0%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-cnt .left h1 {
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact-cnt .right h1 {
+    text-align: left;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.contact-cnt .left {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(11, 17, 22);
+    padding: 2% 2%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.contact-cnt .left form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.contact-cnt .left form input {
+    height: 7%;
+    width: 75%;
+    margin-top: 2%;
+    padding-left: 5px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    /* border-color: white; */
+    color: white;
+}
+
+
+
+.contact-cnt .left form textarea {
+    width: 75%;
+    height: 15%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    /* border-color: white; */
+    border-width: 2px;
+    color: white;
+}
+
+.contact-cnt .left form button {
+    height: 8.5%;
+    width: 25%;
+    margin-top: 3%;
+    background-color: transparent;
+    border-color: White;
+    border-width: 2px;
+    color: white;
+    border-color: #c8770d;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.contact-cnt .left form button:hover {
+    background-color: #c8770d;
+    color: black;
+}
+
+.contact-cnt .right {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(11, 22, 31);
+    padding: 2% 2%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contact-cnt .right .Ctext p {
+    color: white;
+    margin-top: 1%;
+    font-size: 13px;
+}
+
+.contact-cnt .right .Ctext ul {
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.contact-cnt .right .Ctext ul li {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: large;
+    margin-top: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.contact-cnt .right .Ctext ul li img {
+    height: 50px;
+    width: 50px;
+    margin-right: 3%;
+    /* transform: scale(1.3); */
+}
+
+.contact-cnt .right .Ctext {
+    height: 80%;
+    
+}
+
+.Cicons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    width: 100%;
+    margin-left: -12px;
+    justify-content: center;
+}
+
+.Cicons a img {
+    height: 40px;
+    width: 40px;
+    margin-left: 12px;
+    transition-duration: 0.5s;
+}
+
+.Cicons a img:hover {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width:1025px){
+    .contact-cnt {
+        width: 90%;
+        margin-top: 5%;
+    }   
+    .contact-cnt .left{
+        width: 60%;
+    }
+    .contact-cnt .right{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .contact-cnt {
+        width: 90%;
+        margin-top: 5%;
+    }   
+    .contact-cnt .left{
+        width: 60%;
+    }
+    .contact-cnt .right{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:537px) {
+    .contact-cnt {
+        width: 90%;
+        height: 88%;
+        margin-top: 2%;
+        flex-direction: column;
+        background-color: transparent;
+    }   
+    .contact-cnt .left {
+        width: 100%;
+        height: 50%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        background-color: rgb(11, 17, 22);
+    }
+    .contact-cnt .right {
+        width: 100%;
+        height: 50%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        background-color: rgb(11, 22, 31);
+    }
+    .contact-cnt .right .Ctext h1{
+        font-size: 28px;
+        margin-left: 4%;
+    }
+    .contact-cnt .right .Ctext p{
+        margin-left: 4%;
+    }
+   .contact-cnt .left h1{
+    font-size: 28px;
+   }
+   .contact-cnt .left form input{
+    height: 35px;
+    width: 85%;
+   }
+   .contact-cnt .left form textarea{
+    height: 50px;
+    width: 85%;
+   }
+   .contact-cnt .left form button{
+    height: 40px;
+    width: 35%;
+    border-radius: 5px;
+   }
+   .contact-cnt .right .Ctext ul{
+    margin-top: 10%;
+   }
+    
+
+}
