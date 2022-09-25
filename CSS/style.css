@@ -139,6 +139,8 @@ nav ul li a {
 .content .image{
     height: 80%;
     width: 30%;
+    animation: img 1.5s 1;
+
     /* background-color: #c8770d; */
 }
 .content .image img{
@@ -151,6 +153,28 @@ nav ul li a {
     /* background-color: aqua; */
     transform: scale(1.5);
     padding-left: 7.5%;
+    animation: txt 1.5s 1;
+}
+
+@keyframes txt {
+    0%{
+        opacity: 0;
+        margin-left: -30%;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 0%;
+    }
+}
+@keyframes img {
+    0%{
+        opacity: 0;
+        margin-left: -30%;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 0%;
+    }
 }
 
 .content .text h1 {
@@ -206,8 +230,17 @@ nav ul li a {
     width: 100%;
     margin-top: 2%;
     margin-left: 80%;
+    animation: icon 1.5s 1;
 }
-
+@keyframes icon {
+    0%{
+        opacity: 0;
+        margin-left: 20%;
+    }
+    100%{
+        margin-left: 80%;
+    }
+}
 .icons a svg {
     height: 40px;
     width: 40px;
@@ -242,7 +275,6 @@ nav ul li a {
 
 .m-menu ul li {
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,9 +418,40 @@ nav ul li a {
     .icons{
         margin-top: 20px;
         margin-left: 17%;
-        
+        animation: icon 1.5s 1;
     }
     .icons a svg{
        fill: rgb(18, 137, 137);
      }
+    
+    @keyframes icon {
+        0%{
+            opacity: 0;
+            margin-left: -80%;
+        }
+        100%{
+            margin-left: 17%;
+        }
+    }
+
+    @keyframes txt {
+        0%{
+            opacity: 0;
+            margin-left: -200%;
+        }
+        100%{
+            opacity: 1;
+            margin-left: -10%;
+        }
+    }
+    @keyframes img {
+        0%{
+            opacity: 0;
+            margin-left: -200%;
+        }
+        100%{
+            opacity: 1;
+            margin-left: -10%;
+        }
+    }
 }
