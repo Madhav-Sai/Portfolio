@@ -400,6 +400,7 @@ nav ul li a {
         padding: 0;
         height: 30%;
         width: 100%;
+        margin-left: -20%;
         /* background-color: #c8770d; */
     }
     .content .image img{
