@@ -144,7 +144,7 @@
 }
 @keyframes icon {
         0%{
-            opacity: 0;
+            
             margin-left: 15%;
         }
         100%{
@@ -203,7 +203,6 @@
     }
     @keyframes icon {
         0%{
-            opacity: 0;
             margin-left: 15%;
         }
         100%{
