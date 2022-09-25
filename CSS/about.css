@@ -140,6 +140,7 @@
 
 .icons {
     margin-left: 15%;
+    margin-top: 15px;
     animation:icon 1.5s 1;
 }
 @keyframes icon {
