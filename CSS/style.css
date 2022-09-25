@@ -379,7 +379,6 @@ nav ul li a {
 
 @media screen and (max-width:537px) {
     body{
-        
         overflow: hidden;
         margin: 0;
         background-image: none;
@@ -415,6 +414,7 @@ nav ul li a {
         padding: 0;
        margin-top: 100px;
        transform: scale(1.15);
+        margin-left:-10%;
     }
     .icons{
         margin-top: 20px;
