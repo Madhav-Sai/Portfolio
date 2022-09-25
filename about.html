@@ -8,7 +8,17 @@
     <title>Madhav Sai | About</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/about.css">
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("iframe").on("load", function(){
+                $(this).contents().on("mousedown, mouseup, click", function(){
+                    window.open('https://tryhackme.com/p/Madhavsai','_blank');
+                    window.location.reload();
+                });
+            });
+        });
+        </script>
 </head>
 
 <body>
