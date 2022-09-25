@@ -140,7 +140,17 @@
 
 .icons {
     margin-left: 15%;
+    animation:icon 1.5s 1;
 }
+@keyframes icon {
+        0%{
+            opacity: 0;
+            margin-left: 15%;
+        }
+        100%{
+            margin-left: 15%;
+        }
+    }
 .icons a svg{
     fill: rgb(18, 137, 137);
 }
@@ -190,5 +200,14 @@
         margin-top: 30px;
         height: 25%;
         margin-left: 15%;
+    }
+    @keyframes icon {
+        0%{
+            opacity: 0;
+            margin-left: 15%;
+        }
+        100%{
+            margin-left: 15%;
+        }
     }
 }
